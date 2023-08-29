@@ -110,8 +110,8 @@ In case a violation happened with a block coming from a MEV-relay, in order to m
 | Penalty type | Pool type | Socializing pool opt-in | Expected fee recipient address |
 | --- | --- | --- | --- |
 | 1 | Permission-less | No | Permission-less socialising pool OR Operator’s EL reward vault address |
-| 2 | Permission-less | Yes | Permission-less socialising pool |
-| 3 | Permission-less | Opted-out but the opt-out action has not finalized on-chain | Permission-less socialising pool  |
+| 2 | Permission-less | Yes | Permission-less socialising pool OR Operator’s EL reward vault address |
+| 3 | Permission-less | Opted-out but the opt-out action has not finalized on-chain | Permission-less socialising pool  OR Operator’s EL reward vault address |
 | 4 | Permission-less | Opted-out and the action has finalized on-chain | Permission-less socialising pool OR Operator’s EL reward vault address |
 | 5 | Permissioned | n/a  | Permissioned socialising Pool  |
 
